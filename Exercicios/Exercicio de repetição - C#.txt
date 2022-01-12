@@ -1,0 +1,17 @@
+using System;
+
+public class MyProgram
+{
+    public static void Main(string[] args)
+    {
+        int numero, limite;
+        
+        numero = 1;
+        limite = 10;
+        while (numero <= limite)
+        {
+            Console.WriteLine("Contagem atual: " + numero);
+            numero = numero + 1;
+        }
+    }
+}
